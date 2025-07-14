@@ -1,0 +1,3 @@
+﻿Ticket ID,Issue Description,Resolution Steps,Resolution Code,Typical Resolution Time
+INC-20250702-005,,Issue resolved by reviewing Function App metrics and increasing timeout to 10 minutes using Azure CLI.,Timeout Adjustment,
+INC-20250702-008,Application or resource related issue leading to CrashLoopBackOff,"1. Configure kubectl credentials. 2. Diagnose using 'kubectl describe pod' and logs. 3. Check ACI logs and resource limits, escalate if bug is found.",Application Crash / Resource Limit,
